@@ -8,3 +8,4 @@ fake = Faker()
 @app.get("/")
 async def hello_world():
     return "Hello World"
+
