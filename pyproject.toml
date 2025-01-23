@@ -8,7 +8,8 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.12"
 faker = "^35.0.0"
-fastapi = "^0.115.7"
+fastapi = {extras = ["standard"], version = "^0.115.7"}
+pandas = "^2.2.3"
 
 
 [build-system]
